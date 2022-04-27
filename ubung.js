@@ -1,6 +1,5 @@
-const car = {
-    model: `mercedes`,
-    year: 1994,
-    color: `red`,
-};
-console.log(car.model);
+function greet(name, lastname, yar) {
+    console.log(`გამარჯობა, ${name}!, ${lastname}`)
+}
+
+greet(`giorgi`, `beridze`, 1994);
