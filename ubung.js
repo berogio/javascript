@@ -1,5 +1,4 @@
-function greet(name, lastname, yar) {
-    console.log(`გამარჯობა, ${name}!, ${lastname}`)
+const support = function() {
+    console.log(`გამარჯობა`)
 }
-
-greet(`giorgi`, `beridze`, 1994);
+support();
