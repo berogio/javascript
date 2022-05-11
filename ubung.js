@@ -1,15 +1,6 @@
-let wlovaneba = {
-    age: `giorgi`,
-    name: 15,
-    giorgi: [
-        15, 16, 17
-    ]
-
-};
-
-
-if (wlovaneba.age == `giorgi`) {
-    console.log(wlovaneba.giorgi[2]);
-} else {
-    console.log(`cudia`);
+let wlovaneba = [
+    15, 16, 17, 19
+];
+if (wlovaneba[2] == 17) {
+    console.log(Boolean(wlovaneba => 14));
 }
