@@ -1,3 +1,4 @@
 let wlovaneba = [`giorgi`, `gurami`, `tamo`, `mari`];
-console.log(`გამარჯობა ` + wlovaneba[2]);
-console.log(`გამარჯობა ${wlovaneba[2]}`);
+if (wlovaneba.length == 4) {
+    console.log(`sworia ${wlovaneba[3]}`);
+}
